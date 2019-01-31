@@ -109,8 +109,12 @@ def draw_parallel_lines(n, point, length, window):
     #          ** FIRST DO A CONCRETE EXAMPLE BY HAND! **
     ###########################################################################
     # -------------------------------------------------------------------------
+    x = point.x
+    y = point.y
     for k in range(n):
-        rg.Line(rg.Point(point.x, point.y + (30 * k)), rg.Point(point.x + length, point.y + (30 * k)))
+        line = rg.Line(rg.Point(x, y + (30 * k)), rg.Point(x + length, y + (30 * k)))
+        line.attach_to(window)
+    window.render()
 
 
 def run_test_draw_lines():

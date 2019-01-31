@@ -27,24 +27,24 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #          which of the following three choices would you use?
 #
 #            for k in range(r - 1):
-#            for k in range(r):
+#            for k in range(r): THIS
 #            for k in range(r + 1):
 #
 #     b. If you want a loop that runs from 0 to s, inclusive,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(_____): s + 1
 #
 #     c. If you want a loop that runs from r to s, inclusive, assuming s >= r,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(_____): s - r + 1
 #
 #     d. If you want a loop that runs from (r + 4) to (s - 10),
 #          including the (r + 4) but not including the (s - 10),
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(_____): (s + 10) - (r + 4) + 1
 #
 #     e. The following code snippet attempts to return the number
 #          of integers from r to s, inclusive, whose cosines are positive.
